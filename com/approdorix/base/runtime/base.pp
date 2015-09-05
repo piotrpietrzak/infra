@@ -1,6 +1,6 @@
 node "base" {
 
-  file { '/test.txt':
+  file { '/runtime.txt':
     ensure => "file",
     owner  => "root",
     group  => "root",
